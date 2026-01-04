@@ -324,6 +324,10 @@
   font-size: 1.6rem;
 }
 
+.problemTitle2 {
+  margin-top: 2.5rem;
+}
+
 .problemSubtitle {
   font-size: 0.98rem;
   color: #e5e7eb;
@@ -337,28 +341,61 @@
 }
 
 .problemCard {
-  background: #020617;
-  border-radius: 18px;
-  border: 1px solid rgba(55, 65, 81, 0.9);
+  background: #ffffff;
+  border-radius: 2px;
+  /* border: 1px solid rgba(255, 255, 255, 0.9); */
   padding: 1.4rem 1.3rem;
   text-align: center;
+  overflow: hidden
+}
+
+.problemCardTop {
+  height: 40px;
+  width: 200%;
+  margin: -1.7rem -1.4rem 1.3rem; 
+  border-radius: 6px 6px 0 0;
+
+  background-image: url("/left.png");
+  background-size: cover;
+  background-position: center;
+}
+.problemCardTop2 {
+  height: 40px;
+  width: 200%;
+  margin: -1.7rem -1.4rem 1.3rem; 
+  border-radius: 6px 6px 0 0;
+
+  background-image: url("/mid.png");
+  background-size: cover;
+  background-position: center;
+}
+.problemCardTop3 {
+  height: 40px;
+  width: 200%;
+  margin: -1.7rem -1.4rem 1.3rem; 
+  border-radius: 6px 6px 0 0;
+
+  background-image: url("/right.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .problemCardTitle {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
+  color: #000000;
 }
 
 .problemCardBody {
   font-size: 0.88rem;
-  color: #e5e7eb;
+  color: #000000;
 }
 
 /* TRAP STRIP */
 
 .trapSection {
-  background: #020617;
+  background: #141b2b;
   color: #e5e7eb;
   text-align: center;
 }
@@ -377,7 +414,7 @@
 }
 
 .trapBody {
-  font-size: 1.02rem;
+  font-size: 1.5rem;
 }
 
 /* SERVICES */

@@ -244,9 +244,12 @@ export default function Home() {
               You thought you were too small to be a target. You thought your
               vendors could never do wrong. Then reality hit.
             </p>
-
+            <h2 className={styles.problemTitle2}>
+              Now you're facing:
+            </h2>
             <div className={styles.problemCards}>
               <article className={styles.problemCard}>
+                <div className={styles.problemCardTop}></div>
                 <h3 className={styles.problemCardTitle}>VENDOR BLINDNESS</h3>
                 <p className={styles.problemCardBody}>
                   You have no idea if third parties are living up to expectations, pose a concentration risk, 
@@ -254,12 +257,14 @@ export default function Home() {
                 </p>
               </article>
               <article className={styles.problemCard}>
+                <div className={styles.problemCardTop2}></div>
                 <h3 className={styles.problemCardTitle}>DATA CHAOS</h3>
                 <p className={styles.problemCardBody}>
                   You don’t know where your sensitive IP lives, how it gets there, and who has permission to see it.
                 </p>
               </article>
               <article className={styles.problemCard}>
+                <div className={styles.problemCardTop3}></div>
                 <h3 className={styles.problemCardTitle}>REACTIVE PANIC</h3>
                 <p className={styles.problemCardBody}>
                   Every time a risk emerges, it freezes your company. Your whole team drops what they're doing to 
@@ -277,9 +282,9 @@ export default function Home() {
           <div className={`reveal ${styles.trapInner}`}>
             <p className={styles.trapTitle}>The trap</p>
             <p className={styles.trapBody}>
-              You know you need structure, but you can’t afford a $250k
+              <strong>You know you need structure, but you can’t afford a $250k
               enterprise CRO or a Big Four consulting firm to spend six months
-              writing PowerPoint slides.
+              writing PowerPoint slides.</strong>
             </p>
           </div>
         </div>
