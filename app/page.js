@@ -299,47 +299,75 @@ export default function Home() {
           <div className={`reveal ${styles.servicesIntro}`}>
             <p className="eyebrow">How can we help?</p>
             <h2 className="heading-lg">
-              Practical governance, deployed in weeks, not months.
+              PRACTICAL GOVERNANCE. DEPLOYED IN WEEKS, NOT MONTHS.
             </h2>
             <p className="body-lg" style={{ marginTop: "0.8rem" }}>
-              Halberd runs the “Operational Triage” function for fast-moving
-              teams. We document how work actually gets done, then implement
-              the controls to make sure incidents don’t happen the same way
-              twice.
+              Halberd is the “Operational Triage” team for lean startups. We don't just tell you what 
+              went wrong: we implement the controls to ensure it doesn't happen again.
             </p>
+            <h2 className="heading-m">
+              We replace "hope" with documented process.
+            </h2>
           </div>
 
           <div className={`reveal ${styles.servicesCards}`}>
+  
             <article className={styles.serviceCard}>
               <h3 className={styles.serviceCardTitle}>
-                Data Privacy &amp; Cyber Governance
+                Data Privacy & Cyber Governance
               </h3>
-              <p>
-                We map how your data really flows and lock down your perimeter.
-                Clear responsibilities, access controls, and privacy-by-default
-                patterns that won’t break product velocity.
+
+              <p className={styles.serviceLead}>
+                We map your data flow and lock down your perimeter.
               </p>
+
+              <hr className={styles.serviceDivider} />
+
+              <ul className={styles.serviceList}>
+                <li>Data Mapping: We inventory exactly what data you collect and where it lives.</li>
+                <li>Access Control Implementation: We deploy RBAC so interns don’t have admin keys.</li>
+                <li>Privacy Framework: We write and deploy your internal data-handling policies to ensure you aren't liable for negligence.</li>
+              </ul>
             </article>
+
+
             <article className={styles.serviceCard}>
               <h3 className={styles.serviceCardTitle}>
                 Third-Party Risk Containment (TPRM)
               </h3>
-              <p>
-                We sit between your org and critical vendors, building a view of
-                who has access to what, where they’re weak, and how to contain
-                the blast radius when something goes wrong.
+
+              <p className={styles.serviceLead}>
+                We vet your supply chain, so you stop inheriting other people's risks.
               </p>
+
+              <hr className={styles.serviceDivider} />
+
+              <ul className={styles.serviceList}>
+                <li>Vendor Audit: We review your most critical vendors, partnerships, and/or agreements to identify security gaps.</li>
+                <li>Contract Triage: We help you renegotiate third-party contracts to enforce SLAs, protect operations, and mitigate risks.</li>
+                <li>Offboarding Protocols: We ensure that when you fire a vendor, it's done seamlessly.</li>
+              </ul>
             </article>
+
+
             <article className={styles.serviceCard}>
               <h3 className={styles.serviceCardTitle}>
                 Operational Resilience Playbooks
               </h3>
-              <p>
-                We write the manual for “what to do when things break”:
-                incident playbooks, communications templates, on-call
-                expectations, and decision paths your team can follow at 3am.
+
+              <p className={styles.serviceLead}>
+                We write the manual for “what to do when things break.”
               </p>
+
+              <hr className={styles.serviceDivider} />
+
+              <ul className={styles.serviceList}>
+                <li>Incident Response Plan: A step-by-step guide for your team during a breach, outage, or risk event.</li>
+                <li>Business Continuity Planning: Protocols to keep the business running even if a key system goes down.</li>
+                <li>Centre of Governance: We create a committee of risk champions within your organization to break down silos, unearth insight, and promote ongoing risk planning.</li>
+              </ul>
             </article>
+
           </div>
         </div>
       </section>
@@ -370,10 +398,10 @@ export default function Home() {
         <div className="container">
           <div className={styles.footerInner}>
             <div>
-              <div className={styles.footerBrandName}>Halberd Solutions</div>
+              <div className={styles.footerBrandName}>Halberd Solutions</div> {/* should probably logo here */}
               <span>© {new Date().getFullYear()} all rights reserved</span>
               <p className={styles.footerSmall}>
-                social links here.
+                (social links here)
               </p>
             </div>
 
